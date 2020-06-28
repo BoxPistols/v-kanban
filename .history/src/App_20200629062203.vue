@@ -2,6 +2,7 @@
 <template>
   <div id="app">
     <Board/>
+    <p :board="xxxx"></p>
   </div>
 </template>
 

@@ -1,16 +1,20 @@
 
 <template>
   <div id="app">
-    <Board/>
+    <img alt="Vue logo" src="./assets/logo.png">
+    <HelloWorld msg="Welcome to Your Vue.js App"/>
   </div>
 </template>
 
 <script>
+import HelloWorld from './components/HelloWorld.vue'
+// eslint-disable-next-line no-unused-vars
 import Board from './components/Board.vue'
 
 export default {
   name: 'App',
   components: {
+    HelloWorld,
     Board
   }
 }
@@ -24,6 +28,5 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
-  font-size: 1.5rem;
 }
 </style>

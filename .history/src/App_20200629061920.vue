@@ -6,11 +6,13 @@
 </template>
 
 <script>
+import HelloWorld from './components/HelloWorld.vue'
 import Board from './components/Board.vue'
 
 export default {
   name: 'App',
   components: {
+    HelloWorld,
     Board
   }
 }
@@ -24,6 +26,5 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
-  font-size: 1.5rem;
 }
 </style>
